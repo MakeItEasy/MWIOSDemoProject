@@ -29,6 +29,16 @@
 		888814001E287A610068EF82 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 888813FB1E287A610068EF82 /* Person.m */; };
 		888814011E287A610068EF82 /* Person+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 888813FD1E287A610068EF82 /* Person+Private.m */; };
 		888814021E287A610068EF82 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 888813FF1E287A610068EF82 /* Student.m */; };
+		888814131E287D090068EF82 /* 06_RedPoint.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888814041E287D090068EF82 /* 06_RedPoint.storyboard */; };
+		888814141E287D090068EF82 /* ZYInformationListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888814061E287D090068EF82 /* ZYInformationListTableViewController.m */; };
+		888814151E287D090068EF82 /* ZYMessageCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 888814081E287D090068EF82 /* ZYMessageCenter.m */; };
+		888814161E287D090068EF82 /* ZYMessageSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8888140A1E287D090068EF82 /* ZYMessageSubject.m */; };
+		888814171E287D090068EF82 /* ZYMyInformationListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8888140C1E287D090068EF82 /* ZYMyInformationListTableViewController.m */; };
+		888814181E287D090068EF82 /* ZYOrderMessageListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8888140E1E287D090068EF82 /* ZYOrderMessageListTableViewController.m */; };
+		888814191E287D090068EF82 /* ZYTabBusinessTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888814101E287D090068EF82 /* ZYTabBusinessTableViewController.m */; };
+		8888141A1E287D090068EF82 /* ZYTabPersonalTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888814121E287D090068EF82 /* ZYTabPersonalTableViewController.m */; };
+		888814211E287E590068EF82 /* 07_RACDemo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8888141E1E287E590068EF82 /* 07_RACDemo.storyboard */; };
+		888814221E287E590068EF82 /* MW07_RacDemoHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888814201E287E590068EF82 /* MW07_RacDemoHomeViewController.m */; };
 		9AA6B5E86CCDCE02959A12E4 /* libPods-MWIOSDemoProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2378B024606E452074E806F1 /* libPods-MWIOSDemoProject.a */; };
 /* End PBXBuildFile section */
 
@@ -92,6 +102,24 @@
 		888813FD1E287A610068EF82 /* Person+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Person+Private.m"; path = "MWIOSDemoProject/05_TestPrivateProtectMethod/Person+Private.m"; sourceTree = SOURCE_ROOT; };
 		888813FE1E287A610068EF82 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Student.h; path = MWIOSDemoProject/05_TestPrivateProtectMethod/Student.h; sourceTree = SOURCE_ROOT; };
 		888813FF1E287A610068EF82 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Student.m; path = MWIOSDemoProject/05_TestPrivateProtectMethod/Student.m; sourceTree = SOURCE_ROOT; };
+		888814041E287D090068EF82 /* 06_RedPoint.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = 06_RedPoint.storyboard; sourceTree = "<group>"; };
+		888814051E287D090068EF82 /* ZYInformationListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYInformationListTableViewController.h; sourceTree = "<group>"; };
+		888814061E287D090068EF82 /* ZYInformationListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYInformationListTableViewController.m; sourceTree = "<group>"; };
+		888814071E287D090068EF82 /* ZYMessageCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYMessageCenter.h; sourceTree = "<group>"; };
+		888814081E287D090068EF82 /* ZYMessageCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYMessageCenter.m; sourceTree = "<group>"; };
+		888814091E287D090068EF82 /* ZYMessageSubject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYMessageSubject.h; sourceTree = "<group>"; };
+		8888140A1E287D090068EF82 /* ZYMessageSubject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYMessageSubject.m; sourceTree = "<group>"; };
+		8888140B1E287D090068EF82 /* ZYMyInformationListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYMyInformationListTableViewController.h; sourceTree = "<group>"; };
+		8888140C1E287D090068EF82 /* ZYMyInformationListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYMyInformationListTableViewController.m; sourceTree = "<group>"; };
+		8888140D1E287D090068EF82 /* ZYOrderMessageListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYOrderMessageListTableViewController.h; sourceTree = "<group>"; };
+		8888140E1E287D090068EF82 /* ZYOrderMessageListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYOrderMessageListTableViewController.m; sourceTree = "<group>"; };
+		8888140F1E287D090068EF82 /* ZYTabBusinessTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTabBusinessTableViewController.h; sourceTree = "<group>"; };
+		888814101E287D090068EF82 /* ZYTabBusinessTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTabBusinessTableViewController.m; sourceTree = "<group>"; };
+		888814111E287D090068EF82 /* ZYTabPersonalTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTabPersonalTableViewController.h; sourceTree = "<group>"; };
+		888814121E287D090068EF82 /* ZYTabPersonalTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTabPersonalTableViewController.m; sourceTree = "<group>"; };
+		8888141E1E287E590068EF82 /* 07_RACDemo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = 07_RACDemo.storyboard; sourceTree = "<group>"; };
+		8888141F1E287E590068EF82 /* MW07_RacDemoHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MW07_RacDemoHomeViewController.h; sourceTree = "<group>"; };
+		888814201E287E590068EF82 /* MW07_RacDemoHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MW07_RacDemoHomeViewController.m; sourceTree = "<group>"; };
 		8AD262E3ADC71C648985D331 /* Pods-MWIOSDemoProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MWIOSDemoProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MWIOSDemoProjectTests/Pods-MWIOSDemoProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -164,6 +192,8 @@
 				88629F001E285C0E0070B09A /* 03_TableView中下拉图片变大 */,
 				88629F051E285C0E0070B09A /* 04_导航栏的显示隐藏 */,
 				88629F0D1E285C0E0070B09A /* 05_测试私有，保护，共有方法 */,
+				888814031E287D090068EF82 /* 06_小红点使用RAC实现 */,
+				8888141D1E287E590068EF82 /* 07_RACDemo */,
 				88629ED21E2857C70070B09A /* Assets.xcassets */,
 				88629EC61E2857C70070B09A /* Supporting Files */,
 			);
@@ -264,6 +294,55 @@
 				888813FF1E287A610068EF82 /* Student.m */,
 			);
 			path = "05_测试私有，保护，共有方法";
+			sourceTree = "<group>";
+		};
+		888814031E287D090068EF82 /* 06_小红点使用RAC实现 */ = {
+			isa = PBXGroup;
+			children = (
+				888814041E287D090068EF82 /* 06_RedPoint.storyboard */,
+				8888141B1E287D780068EF82 /* 业务tab */,
+				8888141C1E287D8D0068EF82 /* 个人中心tab */,
+				888814071E287D090068EF82 /* ZYMessageCenter.h */,
+				888814081E287D090068EF82 /* ZYMessageCenter.m */,
+				888814091E287D090068EF82 /* ZYMessageSubject.h */,
+				8888140A1E287D090068EF82 /* ZYMessageSubject.m */,
+			);
+			name = "06_小红点使用RAC实现";
+			path = 06_RedPointSubjectImpl;
+			sourceTree = "<group>";
+		};
+		8888141B1E287D780068EF82 /* 业务tab */ = {
+			isa = PBXGroup;
+			children = (
+				888814051E287D090068EF82 /* ZYInformationListTableViewController.h */,
+				888814061E287D090068EF82 /* ZYInformationListTableViewController.m */,
+				8888140D1E287D090068EF82 /* ZYOrderMessageListTableViewController.h */,
+				8888140E1E287D090068EF82 /* ZYOrderMessageListTableViewController.m */,
+				8888140F1E287D090068EF82 /* ZYTabBusinessTableViewController.h */,
+				888814101E287D090068EF82 /* ZYTabBusinessTableViewController.m */,
+			);
+			name = "业务tab";
+			sourceTree = "<group>";
+		};
+		8888141C1E287D8D0068EF82 /* 个人中心tab */ = {
+			isa = PBXGroup;
+			children = (
+				8888140B1E287D090068EF82 /* ZYMyInformationListTableViewController.h */,
+				8888140C1E287D090068EF82 /* ZYMyInformationListTableViewController.m */,
+				888814111E287D090068EF82 /* ZYTabPersonalTableViewController.h */,
+				888814121E287D090068EF82 /* ZYTabPersonalTableViewController.m */,
+			);
+			name = "个人中心tab";
+			sourceTree = "<group>";
+		};
+		8888141D1E287E590068EF82 /* 07_RACDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8888141E1E287E590068EF82 /* 07_RACDemo.storyboard */,
+				8888141F1E287E590068EF82 /* MW07_RacDemoHomeViewController.h */,
+				888814201E287E590068EF82 /* MW07_RacDemoHomeViewController.m */,
+			);
+			path = 07_RACDemo;
 			sourceTree = "<group>";
 		};
 		F9407698B82D85EF3C45D39B /* Frameworks */ = {
@@ -393,6 +472,8 @@
 				888813ED1E287A4B0068EF82 /* 风景1.jpg in Resources */,
 				88629ED31E2857C70070B09A /* Assets.xcassets in Resources */,
 				88629ED11E2857C70070B09A /* Main.storyboard in Resources */,
+				888814211E287E590068EF82 /* 07_RACDemo.storyboard in Resources */,
+				888814131E287D090068EF82 /* 06_RedPoint.storyboard in Resources */,
 				88629F161E285C0E0070B09A /* 02_StackView.storyboard in Resources */,
 				88629F141E285C0E0070B09A /* 01_UIRefreshControl.storyboard in Resources */,
 			);
@@ -512,15 +593,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				888814191E287D090068EF82 /* ZYTabBusinessTableViewController.m in Sources */,
 				888814021E287A610068EF82 /* Student.m in Sources */,
+				8888141A1E287D090068EF82 /* ZYTabPersonalTableViewController.m in Sources */,
+				888814221E287E590068EF82 /* MW07_RacDemoHomeViewController.m in Sources */,
 				888813F91E287A570068EF82 /* MW04_TestCaptchTableViewController.m in Sources */,
 				88629F151E285C0E0070B09A /* MW01_TableViewController.m in Sources */,
 				88629ECE1E2857C70070B09A /* ViewController.m in Sources */,
+				888814171E287D090068EF82 /* ZYMyInformationListTableViewController.m in Sources */,
 				888813F81E287A570068EF82 /* MW04_SecondViewController.m in Sources */,
 				88629ECB1E2857C70070B09A /* AppDelegate.m in Sources */,
+				888814151E287D090068EF82 /* ZYMessageCenter.m in Sources */,
 				888813EE1E287A4B0068EF82 /* MW03_TableViewController.m in Sources */,
+				888814181E287D090068EF82 /* ZYOrderMessageListTableViewController.m in Sources */,
 				888814011E287A610068EF82 /* Person+Private.m in Sources */,
+				888814161E287D090068EF82 /* ZYMessageSubject.m in Sources */,
 				888814001E287A610068EF82 /* Person.m in Sources */,
+				888814141E287D090068EF82 /* ZYInformationListTableViewController.m in Sources */,
 				88629EC81E2857C70070B09A /* main.m in Sources */,
 				888813F71E287A570068EF82 /* MW04_FirstViewController.m in Sources */,
 			);
