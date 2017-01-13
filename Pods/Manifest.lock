@@ -1,0 +1,45 @@
+PODS:
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking3-RACExtensions (0.1.0):
+    - AFNetworking3-RACExtensions/NSURLSession (= 0.1.0)
+  - AFNetworking3-RACExtensions/NSURLSession (0.1.0):
+    - AFNetworking/NSURLSession (~> 3.0)
+    - ReactiveCocoa (~> 2.0)
+  - JZNavigationExtension (1.5.0.1)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+
+DEPENDENCIES:
+  - AFNetworking3-RACExtensions (from `https://github.com/MakeItEasy/AFNetworking3-RACExtensions.git`, tag `0.1.0`)
+  - JZNavigationExtension
+
+EXTERNAL SOURCES:
+  AFNetworking3-RACExtensions:
+    :git: https://github.com/MakeItEasy/AFNetworking3-RACExtensions.git
+    :tag: 0.1.0
+
+CHECKOUT OPTIONS:
+  AFNetworking3-RACExtensions:
+    :git: https://github.com/MakeItEasy/AFNetworking3-RACExtensions.git
+    :tag: 0.1.0
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AFNetworking3-RACExtensions: 7e6bd04ef69a3783f6379c1dfa1ed28069caebe3
+  JZNavigationExtension: 7b95d2b1c48846b8bedcb40d767448f14cb9a0b7
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+
+PODFILE CHECKSUM: 7f34758ccf17df34dbc71f7d3e74d4be21d4e75c
+
+COCOAPODS: 1.1.1

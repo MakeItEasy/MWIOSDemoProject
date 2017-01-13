@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76B514BFCF4494D7320973DB /* libPods-MWIOSDemoProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F9F9028A4D4B0667F00C272 /* libPods-MWIOSDemoProjectTests.a */; };
 		88629EC81E2857C70070B09A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88629EC71E2857C70070B09A /* main.m */; };
 		88629ECB1E2857C70070B09A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88629ECA1E2857C70070B09A /* AppDelegate.m */; };
 		88629ECE1E2857C70070B09A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88629ECD1E2857C70070B09A /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		88629ED61E2857C70070B09A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88629ED41E2857C70070B09A /* LaunchScreen.storyboard */; };
 		88629EE11E2857C70070B09A /* MWIOSDemoProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88629EE01E2857C70070B09A /* MWIOSDemoProjectTests.m */; };
 		88629EEC1E2857C70070B09A /* MWIOSDemoProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88629EEB1E2857C70070B09A /* MWIOSDemoProjectUITests.m */; };
+		9AA6B5E86CCDCE02959A12E4 /* libPods-MWIOSDemoProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2378B024606E452074E806F1 /* libPods-MWIOSDemoProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		112E8767CBF75C46EA42613E /* Pods-MWIOSDemoProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MWIOSDemoProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-MWIOSDemoProject/Pods-MWIOSDemoProject.release.xcconfig"; sourceTree = "<group>"; };
+		1F9F9028A4D4B0667F00C272 /* libPods-MWIOSDemoProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MWIOSDemoProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2378B024606E452074E806F1 /* libPods-MWIOSDemoProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MWIOSDemoProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		811B73F9B1B41B49E0136B62 /* Pods-MWIOSDemoProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MWIOSDemoProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MWIOSDemoProjectTests/Pods-MWIOSDemoProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8346B843514B3AF77FDBFB5C /* Pods-MWIOSDemoProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MWIOSDemoProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MWIOSDemoProject/Pods-MWIOSDemoProject.debug.xcconfig"; sourceTree = "<group>"; };
 		88629EC31E2857C70070B09A /* MWIOSDemoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MWIOSDemoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88629EC71E2857C70070B09A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		88629EC91E2857C70070B09A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +58,7 @@
 		88629EE71E2857C70070B09A /* MWIOSDemoProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MWIOSDemoProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88629EEB1E2857C70070B09A /* MWIOSDemoProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWIOSDemoProjectUITests.m; sourceTree = "<group>"; };
 		88629EED1E2857C70070B09A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AD262E3ADC71C648985D331 /* Pods-MWIOSDemoProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MWIOSDemoProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MWIOSDemoProjectTests/Pods-MWIOSDemoProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AA6B5E86CCDCE02959A12E4 /* libPods-MWIOSDemoProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76B514BFCF4494D7320973DB /* libPods-MWIOSDemoProjectTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +88,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		860AD4775CE473DAE2019B3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8346B843514B3AF77FDBFB5C /* Pods-MWIOSDemoProject.debug.xcconfig */,
+				112E8767CBF75C46EA42613E /* Pods-MWIOSDemoProject.release.xcconfig */,
+				811B73F9B1B41B49E0136B62 /* Pods-MWIOSDemoProjectTests.debug.xcconfig */,
+				8AD262E3ADC71C648985D331 /* Pods-MWIOSDemoProjectTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		88629EBA1E2857C70070B09A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +106,8 @@
 				88629EDF1E2857C70070B09A /* MWIOSDemoProjectTests */,
 				88629EEA1E2857C70070B09A /* MWIOSDemoProjectUITests */,
 				88629EC41E2857C70070B09A /* Products */,
+				860AD4775CE473DAE2019B3D /* Pods */,
+				F9407698B82D85EF3C45D39B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,6 +171,15 @@
 			name = "AppDelegate等";
 			sourceTree = "<group>";
 		};
+		F9407698B82D85EF3C45D39B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2378B024606E452074E806F1 /* libPods-MWIOSDemoProject.a */,
+				1F9F9028A4D4B0667F00C272 /* libPods-MWIOSDemoProjectTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -155,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88629EF01E2857C70070B09A /* Build configuration list for PBXNativeTarget "MWIOSDemoProject" */;
 			buildPhases = (
+				4A0C51ADBFB4BEB903B25B46 /* [CP] Check Pods Manifest.lock */,
 				88629EBF1E2857C70070B09A /* Sources */,
 				88629EC01E2857C70070B09A /* Frameworks */,
 				88629EC11E2857C70070B09A /* Resources */,
+				37A8D0DCCADA2D46225113B5 /* [CP] Embed Pods Frameworks */,
+				C0FE06BEBECBE5018A63B926 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -172,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88629EF31E2857C70070B09A /* Build configuration list for PBXNativeTarget "MWIOSDemoProjectTests" */;
 			buildPhases = (
+				80CF3F1CD18E9BC3013DF97D /* [CP] Check Pods Manifest.lock */,
 				88629ED81E2857C70070B09A /* Sources */,
 				88629ED91E2857C70070B09A /* Frameworks */,
 				88629EDA1E2857C70070B09A /* Resources */,
+				2CBDB43F76EF771B6A30ABC2 /* [CP] Embed Pods Frameworks */,
+				CC843CBFB13F0958A07F45B2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -275,6 +313,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CBDB43F76EF771B6A30ABC2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MWIOSDemoProjectTests/Pods-MWIOSDemoProjectTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37A8D0DCCADA2D46225113B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MWIOSDemoProject/Pods-MWIOSDemoProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A0C51ADBFB4BEB903B25B46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		80CF3F1CD18E9BC3013DF97D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C0FE06BEBECBE5018A63B926 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MWIOSDemoProject/Pods-MWIOSDemoProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC843CBFB13F0958A07F45B2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MWIOSDemoProjectTests/Pods-MWIOSDemoProjectTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		88629EBF1E2857C70070B09A /* Sources */ = {
@@ -430,6 +561,7 @@
 		};
 		88629EF11E2857C70070B09A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8346B843514B3AF77FDBFB5C /* Pods-MWIOSDemoProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MWIOSDemoProject/Info.plist;
@@ -441,6 +573,7 @@
 		};
 		88629EF21E2857C70070B09A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 112E8767CBF75C46EA42613E /* Pods-MWIOSDemoProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MWIOSDemoProject/Info.plist;
@@ -452,6 +585,7 @@
 		};
 		88629EF41E2857C70070B09A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 811B73F9B1B41B49E0136B62 /* Pods-MWIOSDemoProjectTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MWIOSDemoProjectTests/Info.plist;
@@ -464,6 +598,7 @@
 		};
 		88629EF51E2857C70070B09A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AD262E3ADC71C648985D331 /* Pods-MWIOSDemoProjectTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MWIOSDemoProjectTests/Info.plist;

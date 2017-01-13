@@ -1,0 +1,1 @@
+../../../AFNetworking3-RACExtensions/AFNetworking3-RACExtensions/Classes/AFHTTPSessionManager+RACSupport.h
