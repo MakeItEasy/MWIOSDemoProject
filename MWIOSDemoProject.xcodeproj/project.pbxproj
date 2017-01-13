@@ -101,14 +101,11 @@
 		88629EC51E2857C70070B09A /* MWIOSDemoProject */ = {
 			isa = PBXGroup;
 			children = (
-				88629EC91E2857C70070B09A /* AppDelegate.h */,
-				88629ECA1E2857C70070B09A /* AppDelegate.m */,
+				88629EF91E2857F70070B09A /* AppDelegate等 */,
 				88629ECC1E2857C70070B09A /* ViewController.h */,
 				88629ECD1E2857C70070B09A /* ViewController.m */,
 				88629ECF1E2857C70070B09A /* Main.storyboard */,
 				88629ED21E2857C70070B09A /* Assets.xcassets */,
-				88629ED41E2857C70070B09A /* LaunchScreen.storyboard */,
-				88629ED71E2857C70070B09A /* Info.plist */,
 				88629EC61E2857C70070B09A /* Supporting Files */,
 			);
 			path = MWIOSDemoProject;
@@ -138,6 +135,17 @@
 				88629EED1E2857C70070B09A /* Info.plist */,
 			);
 			path = MWIOSDemoProjectUITests;
+			sourceTree = "<group>";
+		};
+		88629EF91E2857F70070B09A /* AppDelegate等 */ = {
+			isa = PBXGroup;
+			children = (
+				88629EC91E2857C70070B09A /* AppDelegate.h */,
+				88629ECA1E2857C70070B09A /* AppDelegate.m */,
+				88629ED41E2857C70070B09A /* LaunchScreen.storyboard */,
+				88629ED71E2857C70070B09A /* Info.plist */,
+			);
+			name = "AppDelegate等";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
