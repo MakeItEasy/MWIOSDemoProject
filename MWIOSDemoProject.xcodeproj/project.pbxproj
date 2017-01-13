@@ -121,6 +121,7 @@
 		8888141F1E287E590068EF82 /* MW07_RacDemoHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MW07_RacDemoHomeViewController.h; sourceTree = "<group>"; };
 		888814201E287E590068EF82 /* MW07_RacDemoHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MW07_RacDemoHomeViewController.m; sourceTree = "<group>"; };
 		888814241E2881D30068EF82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Base; path = MWIOSDemoProject/Base.lproj/PrefixHeader.pch; sourceTree = "<group>"; };
+		888814251E2883390068EF82 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8AD262E3ADC71C648985D331 /* Pods-MWIOSDemoProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MWIOSDemoProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MWIOSDemoProjectTests/Pods-MWIOSDemoProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -165,6 +166,7 @@
 		88629EBA1E2857C70070B09A = {
 			isa = PBXGroup;
 			children = (
+				888814251E2883390068EF82 /* README.md */,
 				888814231E2881D30068EF82 /* PrefixHeader.pch */,
 				88629EC51E2857C70070B09A /* MWIOSDemoProject */,
 				88629EDF1E2857C70070B09A /* MWIOSDemoProjectTests */,
