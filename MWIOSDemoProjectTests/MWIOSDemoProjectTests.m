@@ -5,8 +5,10 @@
 //  Created by dairugang on 2017/1/13.
 //  Copyright © 2017年 dairugang. All rights reserved.
 //
-
+#import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
+#import "Person.h"
+#import "Student.h"
 
 @interface MWIOSDemoProjectTests : XCTestCase
 
@@ -27,6 +29,28 @@
 - (void)testExample {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
+}
+
+
+- (void)testVar {
+    // This is an example of a functional test case.
+    XCTAssert(YES, @"Pass");
+    
+    Person *person1 = [[Person alloc] init];
+    [person1 setName:@"hello world"];
+    NSLog(@"%@", person1);
+    NSLog(@"%@", person1.name);
+    
+    Student *s1 = [[Student alloc] init];
+    [s1 someMethod];
+    
+    
+}
+
+- (void)testArray {
+    NSArray *tempArray = [[NSArray alloc] init];
+    BOOL result = ([tempArray class] == [NSArray class]);
+    NSLog(@"======= %d", result);
 }
 
 - (void)testPerformanceExample {

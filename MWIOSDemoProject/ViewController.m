@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  MainViewController.m
 //  MWIOSDemoProject
 //
 //  Created by dairugang on 2017/1/13.
 //  Copyright © 2017年 dairugang. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MainViewController.h"
 
-@interface ViewController ()
+@interface MainViewController ()
 
 @end
 
-@implementation ViewController
+@implementation MainViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

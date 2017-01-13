@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainViewController.h
 //  MWIOSDemoProject
 //
 //  Created by dairugang on 2017/1/13.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface MainViewController : UIViewController
 
 
 @end

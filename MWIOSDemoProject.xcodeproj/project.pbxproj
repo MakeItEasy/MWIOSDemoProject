@@ -16,6 +16,19 @@
 		88629ED61E2857C70070B09A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88629ED41E2857C70070B09A /* LaunchScreen.storyboard */; };
 		88629EE11E2857C70070B09A /* MWIOSDemoProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88629EE01E2857C70070B09A /* MWIOSDemoProjectTests.m */; };
 		88629EEC1E2857C70070B09A /* MWIOSDemoProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88629EEB1E2857C70070B09A /* MWIOSDemoProjectUITests.m */; };
+		88629F141E285C0E0070B09A /* 01_UIRefreshControl.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88629EFB1E285C0E0070B09A /* 01_UIRefreshControl.storyboard */; };
+		88629F151E285C0E0070B09A /* MW01_TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88629EFD1E285C0E0070B09A /* MW01_TableViewController.m */; };
+		88629F161E285C0E0070B09A /* 02_StackView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88629EFF1E285C0E0070B09A /* 02_StackView.storyboard */; };
+		888813EC1E287A4B0068EF82 /* 03_SacleImageViewOnTableviewHeader.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888813E81E287A4B0068EF82 /* 03_SacleImageViewOnTableviewHeader.storyboard */; };
+		888813ED1E287A4B0068EF82 /* 风景1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 888813E91E287A4B0068EF82 /* 风景1.jpg */; };
+		888813EE1E287A4B0068EF82 /* MW03_TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888813EB1E287A4B0068EF82 /* MW03_TableViewController.m */; };
+		888813F61E287A570068EF82 /* 04_Navigation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888813EF1E287A570068EF82 /* 04_Navigation.storyboard */; };
+		888813F71E287A570068EF82 /* MW04_FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888813F11E287A570068EF82 /* MW04_FirstViewController.m */; };
+		888813F81E287A570068EF82 /* MW04_SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888813F31E287A570068EF82 /* MW04_SecondViewController.m */; };
+		888813F91E287A570068EF82 /* MW04_TestCaptchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888813F51E287A570068EF82 /* MW04_TestCaptchTableViewController.m */; };
+		888814001E287A610068EF82 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 888813FB1E287A610068EF82 /* Person.m */; };
+		888814011E287A610068EF82 /* Person+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 888813FD1E287A610068EF82 /* Person+Private.m */; };
+		888814021E287A610068EF82 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 888813FF1E287A610068EF82 /* Student.m */; };
 		9AA6B5E86CCDCE02959A12E4 /* libPods-MWIOSDemoProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2378B024606E452074E806F1 /* libPods-MWIOSDemoProject.a */; };
 /* End PBXBuildFile section */
 
@@ -46,7 +59,7 @@
 		88629EC71E2857C70070B09A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		88629EC91E2857C70070B09A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		88629ECA1E2857C70070B09A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		88629ECC1E2857C70070B09A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		88629ECC1E2857C70070B09A /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		88629ECD1E2857C70070B09A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		88629ED01E2857C70070B09A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88629ED21E2857C70070B09A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,6 +71,27 @@
 		88629EE71E2857C70070B09A /* MWIOSDemoProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MWIOSDemoProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88629EEB1E2857C70070B09A /* MWIOSDemoProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWIOSDemoProjectUITests.m; sourceTree = "<group>"; };
 		88629EED1E2857C70070B09A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88629EFB1E285C0E0070B09A /* 01_UIRefreshControl.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = 01_UIRefreshControl.storyboard; sourceTree = "<group>"; };
+		88629EFC1E285C0E0070B09A /* MW01_TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MW01_TableViewController.h; sourceTree = "<group>"; };
+		88629EFD1E285C0E0070B09A /* MW01_TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MW01_TableViewController.m; sourceTree = "<group>"; };
+		88629EFF1E285C0E0070B09A /* 02_StackView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = 02_StackView.storyboard; sourceTree = "<group>"; };
+		888813E81E287A4B0068EF82 /* 03_SacleImageViewOnTableviewHeader.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = 03_SacleImageViewOnTableviewHeader.storyboard; path = MWIOSDemoProject/03_DragImageOnTableViewTop/03_SacleImageViewOnTableviewHeader.storyboard; sourceTree = SOURCE_ROOT; };
+		888813E91E287A4B0068EF82 /* 风景1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "风景1.jpg"; path = "MWIOSDemoProject/03_DragImageOnTableViewTop/风景1.jpg"; sourceTree = SOURCE_ROOT; };
+		888813EA1E287A4B0068EF82 /* MW03_TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MW03_TableViewController.h; path = MWIOSDemoProject/03_DragImageOnTableViewTop/MW03_TableViewController.h; sourceTree = SOURCE_ROOT; };
+		888813EB1E287A4B0068EF82 /* MW03_TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MW03_TableViewController.m; path = MWIOSDemoProject/03_DragImageOnTableViewTop/MW03_TableViewController.m; sourceTree = SOURCE_ROOT; };
+		888813EF1E287A570068EF82 /* 04_Navigation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = 04_Navigation.storyboard; path = MWIOSDemoProject/04_NavHiddenAndShow/04_Navigation.storyboard; sourceTree = SOURCE_ROOT; };
+		888813F01E287A570068EF82 /* MW04_FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MW04_FirstViewController.h; path = MWIOSDemoProject/04_NavHiddenAndShow/MW04_FirstViewController.h; sourceTree = SOURCE_ROOT; };
+		888813F11E287A570068EF82 /* MW04_FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MW04_FirstViewController.m; path = MWIOSDemoProject/04_NavHiddenAndShow/MW04_FirstViewController.m; sourceTree = SOURCE_ROOT; };
+		888813F21E287A570068EF82 /* MW04_SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MW04_SecondViewController.h; path = MWIOSDemoProject/04_NavHiddenAndShow/MW04_SecondViewController.h; sourceTree = SOURCE_ROOT; };
+		888813F31E287A570068EF82 /* MW04_SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MW04_SecondViewController.m; path = MWIOSDemoProject/04_NavHiddenAndShow/MW04_SecondViewController.m; sourceTree = SOURCE_ROOT; };
+		888813F41E287A570068EF82 /* MW04_TestCaptchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MW04_TestCaptchTableViewController.h; path = MWIOSDemoProject/04_NavHiddenAndShow/MW04_TestCaptchTableViewController.h; sourceTree = SOURCE_ROOT; };
+		888813F51E287A570068EF82 /* MW04_TestCaptchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MW04_TestCaptchTableViewController.m; path = MWIOSDemoProject/04_NavHiddenAndShow/MW04_TestCaptchTableViewController.m; sourceTree = SOURCE_ROOT; };
+		888813FA1E287A610068EF82 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = MWIOSDemoProject/05_TestPrivateProtectMethod/Person.h; sourceTree = SOURCE_ROOT; };
+		888813FB1E287A610068EF82 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = MWIOSDemoProject/05_TestPrivateProtectMethod/Person.m; sourceTree = SOURCE_ROOT; };
+		888813FC1E287A610068EF82 /* Person+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Person+Private.h"; path = "MWIOSDemoProject/05_TestPrivateProtectMethod/Person+Private.h"; sourceTree = SOURCE_ROOT; };
+		888813FD1E287A610068EF82 /* Person+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Person+Private.m"; path = "MWIOSDemoProject/05_TestPrivateProtectMethod/Person+Private.m"; sourceTree = SOURCE_ROOT; };
+		888813FE1E287A610068EF82 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Student.h; path = MWIOSDemoProject/05_TestPrivateProtectMethod/Student.h; sourceTree = SOURCE_ROOT; };
+		888813FF1E287A610068EF82 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Student.m; path = MWIOSDemoProject/05_TestPrivateProtectMethod/Student.m; sourceTree = SOURCE_ROOT; };
 		8AD262E3ADC71C648985D331 /* Pods-MWIOSDemoProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MWIOSDemoProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MWIOSDemoProjectTests/Pods-MWIOSDemoProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,10 +158,12 @@
 		88629EC51E2857C70070B09A /* MWIOSDemoProject */ = {
 			isa = PBXGroup;
 			children = (
-				88629EF91E2857F70070B09A /* AppDelegate等 */,
-				88629ECC1E2857C70070B09A /* ViewController.h */,
-				88629ECD1E2857C70070B09A /* ViewController.m */,
-				88629ECF1E2857C70070B09A /* Main.storyboard */,
+				88629EF91E2857F70070B09A /* AppDelegate，主页等 */,
+				88629EFA1E285C0E0070B09A /* 01_UIRefreshControl */,
+				88629EFE1E285C0E0070B09A /* 02_StackView */,
+				88629F001E285C0E0070B09A /* 03_TableView中下拉图片变大 */,
+				88629F051E285C0E0070B09A /* 04_导航栏的显示隐藏 */,
+				88629F0D1E285C0E0070B09A /* 05_测试私有，保护，共有方法 */,
 				88629ED21E2857C70070B09A /* Assets.xcassets */,
 				88629EC61E2857C70070B09A /* Supporting Files */,
 			);
@@ -160,15 +196,74 @@
 			path = MWIOSDemoProjectUITests;
 			sourceTree = "<group>";
 		};
-		88629EF91E2857F70070B09A /* AppDelegate等 */ = {
+		88629EF91E2857F70070B09A /* AppDelegate，主页等 */ = {
 			isa = PBXGroup;
 			children = (
+				88629ECC1E2857C70070B09A /* MainViewController.h */,
+				88629ECD1E2857C70070B09A /* ViewController.m */,
+				88629ECF1E2857C70070B09A /* Main.storyboard */,
 				88629EC91E2857C70070B09A /* AppDelegate.h */,
 				88629ECA1E2857C70070B09A /* AppDelegate.m */,
 				88629ED41E2857C70070B09A /* LaunchScreen.storyboard */,
 				88629ED71E2857C70070B09A /* Info.plist */,
 			);
-			name = "AppDelegate等";
+			name = "AppDelegate，主页等";
+			sourceTree = "<group>";
+		};
+		88629EFA1E285C0E0070B09A /* 01_UIRefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				88629EFB1E285C0E0070B09A /* 01_UIRefreshControl.storyboard */,
+				88629EFC1E285C0E0070B09A /* MW01_TableViewController.h */,
+				88629EFD1E285C0E0070B09A /* MW01_TableViewController.m */,
+			);
+			path = 01_UIRefreshControl;
+			sourceTree = "<group>";
+		};
+		88629EFE1E285C0E0070B09A /* 02_StackView */ = {
+			isa = PBXGroup;
+			children = (
+				88629EFF1E285C0E0070B09A /* 02_StackView.storyboard */,
+			);
+			path = 02_StackView;
+			sourceTree = "<group>";
+		};
+		88629F001E285C0E0070B09A /* 03_TableView中下拉图片变大 */ = {
+			isa = PBXGroup;
+			children = (
+				888813E81E287A4B0068EF82 /* 03_SacleImageViewOnTableviewHeader.storyboard */,
+				888813E91E287A4B0068EF82 /* 风景1.jpg */,
+				888813EA1E287A4B0068EF82 /* MW03_TableViewController.h */,
+				888813EB1E287A4B0068EF82 /* MW03_TableViewController.m */,
+			);
+			path = "03_TableView中下拉图片变大";
+			sourceTree = "<group>";
+		};
+		88629F051E285C0E0070B09A /* 04_导航栏的显示隐藏 */ = {
+			isa = PBXGroup;
+			children = (
+				888813EF1E287A570068EF82 /* 04_Navigation.storyboard */,
+				888813F01E287A570068EF82 /* MW04_FirstViewController.h */,
+				888813F11E287A570068EF82 /* MW04_FirstViewController.m */,
+				888813F21E287A570068EF82 /* MW04_SecondViewController.h */,
+				888813F31E287A570068EF82 /* MW04_SecondViewController.m */,
+				888813F41E287A570068EF82 /* MW04_TestCaptchTableViewController.h */,
+				888813F51E287A570068EF82 /* MW04_TestCaptchTableViewController.m */,
+			);
+			path = "04_导航栏的显示隐藏";
+			sourceTree = "<group>";
+		};
+		88629F0D1E285C0E0070B09A /* 05_测试私有，保护，共有方法 */ = {
+			isa = PBXGroup;
+			children = (
+				888813FA1E287A610068EF82 /* Person.h */,
+				888813FB1E287A610068EF82 /* Person.m */,
+				888813FC1E287A610068EF82 /* Person+Private.h */,
+				888813FD1E287A610068EF82 /* Person+Private.m */,
+				888813FE1E287A610068EF82 /* Student.h */,
+				888813FF1E287A610068EF82 /* Student.m */,
+			);
+			path = "05_测试私有，保护，共有方法";
 			sourceTree = "<group>";
 		};
 		F9407698B82D85EF3C45D39B /* Frameworks */ = {
@@ -293,8 +388,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				88629ED61E2857C70070B09A /* LaunchScreen.storyboard in Resources */,
+				888813EC1E287A4B0068EF82 /* 03_SacleImageViewOnTableviewHeader.storyboard in Resources */,
+				888813F61E287A570068EF82 /* 04_Navigation.storyboard in Resources */,
+				888813ED1E287A4B0068EF82 /* 风景1.jpg in Resources */,
 				88629ED31E2857C70070B09A /* Assets.xcassets in Resources */,
 				88629ED11E2857C70070B09A /* Main.storyboard in Resources */,
+				88629F161E285C0E0070B09A /* 02_StackView.storyboard in Resources */,
+				88629F141E285C0E0070B09A /* 01_UIRefreshControl.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,9 +512,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				888814021E287A610068EF82 /* Student.m in Sources */,
+				888813F91E287A570068EF82 /* MW04_TestCaptchTableViewController.m in Sources */,
+				88629F151E285C0E0070B09A /* MW01_TableViewController.m in Sources */,
 				88629ECE1E2857C70070B09A /* ViewController.m in Sources */,
+				888813F81E287A570068EF82 /* MW04_SecondViewController.m in Sources */,
 				88629ECB1E2857C70070B09A /* AppDelegate.m in Sources */,
+				888813EE1E287A4B0068EF82 /* MW03_TableViewController.m in Sources */,
+				888814011E287A610068EF82 /* Person+Private.m in Sources */,
+				888814001E287A610068EF82 /* Person.m in Sources */,
 				88629EC81E2857C70070B09A /* main.m in Sources */,
+				888813F71E287A570068EF82 /* MW04_FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -650,6 +758,7 @@
 				88629EF21E2857C70070B09A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88629EF31E2857C70070B09A /* Build configuration list for PBXNativeTarget "MWIOSDemoProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -658,6 +767,7 @@
 				88629EF51E2857C70070B09A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88629EF61E2857C70070B09A /* Build configuration list for PBXNativeTarget "MWIOSDemoProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -666,6 +776,7 @@
 				88629EF81E2857C70070B09A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
