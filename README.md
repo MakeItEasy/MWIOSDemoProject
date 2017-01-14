@@ -10,7 +10,7 @@
 
 ## TODOs
 
-* 添加一个主入口，查看所有的功能（目前只能修改项目的启动项到各个storyboard 2017/1/13）
+* ~~添加一个主入口，查看所有的功能（目前只能修改项目的启动项到各个storyboard 2017/1/13）(20170114已完成)~~
 
 ## License
 This repo is available under the MIT license. See the LICENSE file for more info.

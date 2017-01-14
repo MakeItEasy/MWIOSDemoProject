@@ -10,7 +10,7 @@
 		76B514BFCF4494D7320973DB /* libPods-MWIOSDemoProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F9F9028A4D4B0667F00C272 /* libPods-MWIOSDemoProjectTests.a */; };
 		88629EC81E2857C70070B09A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88629EC71E2857C70070B09A /* main.m */; };
 		88629ECB1E2857C70070B09A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88629ECA1E2857C70070B09A /* AppDelegate.m */; };
-		88629ECE1E2857C70070B09A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88629ECD1E2857C70070B09A /* ViewController.m */; };
+		88629ECE1E2857C70070B09A /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88629ECD1E2857C70070B09A /* MainTableViewController.m */; };
 		88629ED11E2857C70070B09A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88629ECF1E2857C70070B09A /* Main.storyboard */; };
 		88629ED31E2857C70070B09A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88629ED21E2857C70070B09A /* Assets.xcassets */; };
 		88629ED61E2857C70070B09A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88629ED41E2857C70070B09A /* LaunchScreen.storyboard */; };
@@ -69,8 +69,8 @@
 		88629EC71E2857C70070B09A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		88629EC91E2857C70070B09A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		88629ECA1E2857C70070B09A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		88629ECC1E2857C70070B09A /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		88629ECD1E2857C70070B09A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		88629ECC1E2857C70070B09A /* MainTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		88629ECD1E2857C70070B09A /* MainTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
 		88629ED01E2857C70070B09A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88629ED21E2857C70070B09A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88629ED51E2857C70070B09A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -233,8 +233,8 @@
 		88629EF91E2857F70070B09A /* AppDelegate，主页等 */ = {
 			isa = PBXGroup;
 			children = (
-				88629ECC1E2857C70070B09A /* MainViewController.h */,
-				88629ECD1E2857C70070B09A /* ViewController.m */,
+				88629ECC1E2857C70070B09A /* MainTableViewController.h */,
+				88629ECD1E2857C70070B09A /* MainTableViewController.m */,
 				88629ECF1E2857C70070B09A /* Main.storyboard */,
 				88629EC91E2857C70070B09A /* AppDelegate.h */,
 				88629ECA1E2857C70070B09A /* AppDelegate.m */,
@@ -603,7 +603,7 @@
 				888814221E287E590068EF82 /* MW07_RacDemoHomeViewController.m in Sources */,
 				888813F91E287A570068EF82 /* MW04_TestCaptchTableViewController.m in Sources */,
 				88629F151E285C0E0070B09A /* MW01_TableViewController.m in Sources */,
-				88629ECE1E2857C70070B09A /* ViewController.m in Sources */,
+				88629ECE1E2857C70070B09A /* MainTableViewController.m in Sources */,
 				888814171E287D090068EF82 /* ZYMyInformationListTableViewController.m in Sources */,
 				888813F81E287A570068EF82 /* MW04_SecondViewController.m in Sources */,
 				88629ECB1E2857C70070B09A /* AppDelegate.m in Sources */,

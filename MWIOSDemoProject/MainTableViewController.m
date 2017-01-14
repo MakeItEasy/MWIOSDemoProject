@@ -1,18 +1,18 @@
 //
-//  MainViewController.m
+//  MainTableViewController.m
 //  MWIOSDemoProject
 //
 //  Created by dairugang on 2017/1/13.
 //  Copyright © 2017年 dairugang. All rights reserved.
 //
 
-#import "MainViewController.h"
+#import "MainTableViewController.h"
 
-@interface MainViewController ()
+@interface MainTableViewController ()
 
 @end
 
-@implementation MainViewController
+@implementation MainTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

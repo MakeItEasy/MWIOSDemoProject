@@ -1,5 +1,5 @@
 //
-//  MainViewController.h
+//  MainTableViewController.h
 //  MWIOSDemoProject
 //
 //  Created by dairugang on 2017/1/13.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainViewController : UIViewController
+@interface MainTableViewController : UITableViewController
 
 
 @end
