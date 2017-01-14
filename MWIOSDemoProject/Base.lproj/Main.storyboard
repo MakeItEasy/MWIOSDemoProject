@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Main Table View Controller-->
+        <!--主页-->
         <scene sceneID="m0f-uW-BfZ">
             <objects>
                 <tableViewController id="xQ8-6R-OMK" customClass="MainTableViewController" sceneMemberID="viewController">
@@ -148,7 +148,7 @@
                             <outlet property="delegate" destination="xQ8-6R-OMK" id="c8H-Jj-WcB"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="fqf-Ce-rCx"/>
+                    <navigationItem key="navigationItem" title="主页" id="fqf-Ce-rCx"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="1000"/>
                 </tableViewController>
