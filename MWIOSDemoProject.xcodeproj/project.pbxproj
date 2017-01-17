@@ -183,6 +183,7 @@
 		883D06D11E2DA48600ADEE81 /* 08_自定义PresentationController */ = {
 			isa = PBXGroup;
 			children = (
+				883D06E21E2DC4FC00ADEE81 /* README.md */,
 				883D06E11E2DBD6400ADEE81 /* CommonUtil */,
 				883D06D21E2DB2A900ADEE81 /* MW08_FirstViewController.h */,
 				883D06D31E2DB2A900ADEE81 /* MW08_FirstViewController.m */,
@@ -190,7 +191,6 @@
 				883D06D61E2DB35B00ADEE81 /* MW08_SecondViewController.m */,
 				883D06DB1E2DBB4300ADEE81 /* MW08_ThirdViewController.h */,
 				883D06DC1E2DBB4300ADEE81 /* MW08_ThirdViewController.m */,
-				883D06E21E2DC4FC00ADEE81 /* README.md */,
 			);
 			name = "08_自定义PresentationController";
 			path = 08_CustomizePresentionController;
