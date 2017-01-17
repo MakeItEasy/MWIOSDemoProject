@@ -13,6 +13,7 @@
 		883D06DA1E2DB3F100ADEE81 /* MW08_MyPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 883D06D91E2DB3F100ADEE81 /* MW08_MyPresentationController.m */; };
 		883D06DD1E2DBB4300ADEE81 /* MW08_ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 883D06DC1E2DBB4300ADEE81 /* MW08_ThirdViewController.m */; };
 		883D06E01E2DBD5B00ADEE81 /* MW08_SlideInPresentationAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 883D06DF1E2DBD5B00ADEE81 /* MW08_SlideInPresentationAnimator.m */; };
+		883D06E31E2DC4FC00ADEE81 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 883D06E21E2DC4FC00ADEE81 /* README.md */; };
 		88629EC81E2857C70070B09A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88629EC71E2857C70070B09A /* main.m */; };
 		88629ECB1E2857C70070B09A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88629ECA1E2857C70070B09A /* AppDelegate.m */; };
 		88629ECE1E2857C70070B09A /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88629ECD1E2857C70070B09A /* MainTableViewController.m */; };
@@ -80,6 +81,7 @@
 		883D06DC1E2DBB4300ADEE81 /* MW08_ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MW08_ThirdViewController.m; sourceTree = "<group>"; };
 		883D06DE1E2DBD5B00ADEE81 /* MW08_SlideInPresentationAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MW08_SlideInPresentationAnimator.h; sourceTree = "<group>"; };
 		883D06DF1E2DBD5B00ADEE81 /* MW08_SlideInPresentationAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MW08_SlideInPresentationAnimator.m; sourceTree = "<group>"; };
+		883D06E21E2DC4FC00ADEE81 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		88629EC31E2857C70070B09A /* MWIOSDemoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MWIOSDemoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88629EC71E2857C70070B09A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		88629EC91E2857C70070B09A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 				883D06D61E2DB35B00ADEE81 /* MW08_SecondViewController.m */,
 				883D06DB1E2DBB4300ADEE81 /* MW08_ThirdViewController.h */,
 				883D06DC1E2DBB4300ADEE81 /* MW08_ThirdViewController.m */,
+				883D06E21E2DC4FC00ADEE81 /* README.md */,
 			);
 			name = "08_自定义PresentationController";
 			path = 08_CustomizePresentionController;
@@ -651,6 +654,7 @@
 				888813F81E287A570068EF82 /* MW04_SecondViewController.m in Sources */,
 				88629ECB1E2857C70070B09A /* AppDelegate.m in Sources */,
 				888814151E287D090068EF82 /* ZYMessageCenter.m in Sources */,
+				883D06E31E2DC4FC00ADEE81 /* README.md in Sources */,
 				883D06D71E2DB35B00ADEE81 /* MW08_SecondViewController.m in Sources */,
 				888813EE1E287A4B0068EF82 /* MW03_TableViewController.m in Sources */,
 				883D06DD1E2DBB4300ADEE81 /* MW08_ThirdViewController.m in Sources */,
