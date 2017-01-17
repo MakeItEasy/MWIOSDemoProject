@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		76B514BFCF4494D7320973DB /* libPods-MWIOSDemoProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F9F9028A4D4B0667F00C272 /* libPods-MWIOSDemoProjectTests.a */; };
+		883D06D41E2DB2A900ADEE81 /* MW08_FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 883D06D31E2DB2A900ADEE81 /* MW08_FirstViewController.m */; };
+		883D06D71E2DB35B00ADEE81 /* MW08_SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 883D06D61E2DB35B00ADEE81 /* MW08_SecondViewController.m */; };
+		883D06DA1E2DB3F100ADEE81 /* MW08_MyPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 883D06D91E2DB3F100ADEE81 /* MW08_MyPresentationController.m */; };
+		883D06DD1E2DBB4300ADEE81 /* MW08_ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 883D06DC1E2DBB4300ADEE81 /* MW08_ThirdViewController.m */; };
+		883D06E01E2DBD5B00ADEE81 /* MW08_SlideInPresentationAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 883D06DF1E2DBD5B00ADEE81 /* MW08_SlideInPresentationAnimator.m */; };
 		88629EC81E2857C70070B09A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88629EC71E2857C70070B09A /* main.m */; };
 		88629ECB1E2857C70070B09A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88629ECA1E2857C70070B09A /* AppDelegate.m */; };
 		88629ECE1E2857C70070B09A /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88629ECD1E2857C70070B09A /* MainTableViewController.m */; };
@@ -65,6 +70,16 @@
 		2378B024606E452074E806F1 /* libPods-MWIOSDemoProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MWIOSDemoProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		811B73F9B1B41B49E0136B62 /* Pods-MWIOSDemoProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MWIOSDemoProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MWIOSDemoProjectTests/Pods-MWIOSDemoProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8346B843514B3AF77FDBFB5C /* Pods-MWIOSDemoProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MWIOSDemoProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MWIOSDemoProject/Pods-MWIOSDemoProject.debug.xcconfig"; sourceTree = "<group>"; };
+		883D06D21E2DB2A900ADEE81 /* MW08_FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MW08_FirstViewController.h; sourceTree = "<group>"; };
+		883D06D31E2DB2A900ADEE81 /* MW08_FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MW08_FirstViewController.m; sourceTree = "<group>"; };
+		883D06D51E2DB35B00ADEE81 /* MW08_SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MW08_SecondViewController.h; sourceTree = "<group>"; };
+		883D06D61E2DB35B00ADEE81 /* MW08_SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MW08_SecondViewController.m; sourceTree = "<group>"; };
+		883D06D81E2DB3F100ADEE81 /* MW08_MyPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MW08_MyPresentationController.h; sourceTree = "<group>"; };
+		883D06D91E2DB3F100ADEE81 /* MW08_MyPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MW08_MyPresentationController.m; sourceTree = "<group>"; };
+		883D06DB1E2DBB4300ADEE81 /* MW08_ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MW08_ThirdViewController.h; sourceTree = "<group>"; };
+		883D06DC1E2DBB4300ADEE81 /* MW08_ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MW08_ThirdViewController.m; sourceTree = "<group>"; };
+		883D06DE1E2DBD5B00ADEE81 /* MW08_SlideInPresentationAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MW08_SlideInPresentationAnimator.h; sourceTree = "<group>"; };
+		883D06DF1E2DBD5B00ADEE81 /* MW08_SlideInPresentationAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MW08_SlideInPresentationAnimator.m; sourceTree = "<group>"; };
 		88629EC31E2857C70070B09A /* MWIOSDemoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MWIOSDemoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88629EC71E2857C70070B09A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		88629EC91E2857C70070B09A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -163,6 +178,32 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		883D06D11E2DA48600ADEE81 /* 08_自定义PresentationController */ = {
+			isa = PBXGroup;
+			children = (
+				883D06E11E2DBD6400ADEE81 /* CommonUtil */,
+				883D06D21E2DB2A900ADEE81 /* MW08_FirstViewController.h */,
+				883D06D31E2DB2A900ADEE81 /* MW08_FirstViewController.m */,
+				883D06D51E2DB35B00ADEE81 /* MW08_SecondViewController.h */,
+				883D06D61E2DB35B00ADEE81 /* MW08_SecondViewController.m */,
+				883D06DB1E2DBB4300ADEE81 /* MW08_ThirdViewController.h */,
+				883D06DC1E2DBB4300ADEE81 /* MW08_ThirdViewController.m */,
+			);
+			name = "08_自定义PresentationController";
+			path = 08_CustomizePresentionController;
+			sourceTree = "<group>";
+		};
+		883D06E11E2DBD6400ADEE81 /* CommonUtil */ = {
+			isa = PBXGroup;
+			children = (
+				883D06D81E2DB3F100ADEE81 /* MW08_MyPresentationController.h */,
+				883D06D91E2DB3F100ADEE81 /* MW08_MyPresentationController.m */,
+				883D06DE1E2DBD5B00ADEE81 /* MW08_SlideInPresentationAnimator.h */,
+				883D06DF1E2DBD5B00ADEE81 /* MW08_SlideInPresentationAnimator.m */,
+			);
+			name = CommonUtil;
+			sourceTree = "<group>";
+		};
 		88629EBA1E2857C70070B09A = {
 			isa = PBXGroup;
 			children = (
@@ -198,6 +239,7 @@
 				88629F0D1E285C0E0070B09A /* 05_测试私有，保护，共有方法 */,
 				888814031E287D090068EF82 /* 06_小红点使用RAC实现 */,
 				8888141D1E287E590068EF82 /* 07_RACDemo */,
+				883D06D11E2DA48600ADEE81 /* 08_自定义PresentationController */,
 				88629ED21E2857C70070B09A /* Assets.xcassets */,
 				88629EC61E2857C70070B09A /* Supporting Files */,
 			);
@@ -600,6 +642,7 @@
 				888814191E287D090068EF82 /* ZYTabBusinessTableViewController.m in Sources */,
 				888814021E287A610068EF82 /* Student.m in Sources */,
 				8888141A1E287D090068EF82 /* ZYTabPersonalTableViewController.m in Sources */,
+				883D06E01E2DBD5B00ADEE81 /* MW08_SlideInPresentationAnimator.m in Sources */,
 				888814221E287E590068EF82 /* MW07_RacDemoHomeViewController.m in Sources */,
 				888813F91E287A570068EF82 /* MW04_TestCaptchTableViewController.m in Sources */,
 				88629F151E285C0E0070B09A /* MW01_TableViewController.m in Sources */,
@@ -608,7 +651,9 @@
 				888813F81E287A570068EF82 /* MW04_SecondViewController.m in Sources */,
 				88629ECB1E2857C70070B09A /* AppDelegate.m in Sources */,
 				888814151E287D090068EF82 /* ZYMessageCenter.m in Sources */,
+				883D06D71E2DB35B00ADEE81 /* MW08_SecondViewController.m in Sources */,
 				888813EE1E287A4B0068EF82 /* MW03_TableViewController.m in Sources */,
+				883D06DD1E2DBB4300ADEE81 /* MW08_ThirdViewController.m in Sources */,
 				888814181E287D090068EF82 /* ZYOrderMessageListTableViewController.m in Sources */,
 				888814011E287A610068EF82 /* Person+Private.m in Sources */,
 				888814161E287D090068EF82 /* ZYMessageSubject.m in Sources */,
@@ -616,6 +661,8 @@
 				888814141E287D090068EF82 /* ZYInformationListTableViewController.m in Sources */,
 				88629EC81E2857C70070B09A /* main.m in Sources */,
 				888813F71E287A570068EF82 /* MW04_FirstViewController.m in Sources */,
+				883D06D41E2DB2A900ADEE81 /* MW08_FirstViewController.m in Sources */,
+				883D06DA1E2DB3F100ADEE81 /* MW08_MyPresentationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

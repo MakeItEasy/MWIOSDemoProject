@@ -7,6 +7,7 @@
 //
 
 #import "MainTableViewController.h"
+#import "MW08_FirstViewController.h"
 
 @interface MainTableViewController ()
 
@@ -23,6 +24,20 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    switch (indexPath.row) {
+        case 6:
+        {
+            // 08_自定义PresentationController
+            MW08_FirstViewController *vc = [[MW08_FirstViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+            
+        default:
+            break;
+    }
 }
 
 
