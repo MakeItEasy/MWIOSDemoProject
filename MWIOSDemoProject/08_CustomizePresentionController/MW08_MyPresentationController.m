@@ -73,4 +73,13 @@
     return CGRectMake(screenWidth-frameWidth, screenHeight-frameHeight, frameWidth, frameHeight);
 }
 
+//- (BOOL)shouldPresentInFullscreen {
+//    return NO;
+//}
+//
+//- (BOOL)shouldRemovePresentersView {
+//    // 返回YES的话，当显示出来presentedView后，presentingView将会消失，等dismiss后又会出现
+//    return YES;
+//}
+
 @end
