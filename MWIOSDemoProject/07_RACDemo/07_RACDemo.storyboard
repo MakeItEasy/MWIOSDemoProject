@@ -37,6 +37,14 @@
                                     <action selector="testMergeTapped:" destination="qmG-EJ-xhI" eventType="touchUpInside" id="KeL-8t-BaW"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Z6-lP-Vb6">
+                                <rect key="frame" x="31" y="171" width="96" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="TestArrayRAC"/>
+                                <connections>
+                                    <action selector="testArrayRACTapped:" destination="qmG-EJ-xhI" eventType="touchUpInside" id="qzR-dX-koL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>

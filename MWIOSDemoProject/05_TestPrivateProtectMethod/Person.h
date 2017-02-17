@@ -25,5 +25,7 @@
 
 @property (nonatomic, copy) NSString *name;
 
+@property (nonatomic, strong) NSMutableArray *accounts;
+
 
 @end

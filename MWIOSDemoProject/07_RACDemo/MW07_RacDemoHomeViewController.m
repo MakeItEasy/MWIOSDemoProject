@@ -8,8 +8,11 @@
 
 #import "MW07_RacDemoHomeViewController.h"
 #import <ReactiveCocoa/ReactiveCocoa.h>
+#import "Person.h"
 
-@interface MW07_RacDemoHomeViewController ()
+@interface MW07_RacDemoHomeViewController () {
+    Person *_person;
+}
 
 @end
 
@@ -17,6 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self initForTestArrayRACTapped];
     // Do any additional setup after loading the view.
 }
 
@@ -75,6 +79,32 @@
     [subject2 sendNext:@(20)];
     [subject2 sendCompleted];
     [subject1 sendCompleted];
+}
+
+- (IBAction)testArrayRACTapped:(id)sender {
+    NSMutableArray *accounts = [_person mutableArrayValueForKey:@"accounts"];
+    NSString *str1 = @"hello world";
+    [accounts addObject:str1];
+//    [accounts removeLastObject];
+    [accounts replaceObjectAtIndex:0 withObject:@"foo"];
+//    [accounts removeObject:str1];
+//    [accounts removeObjectAtIndex:0];
+}
+
+- (void)initForTestArrayRACTapped {
+    _person = [[Person alloc] init];
+    _person.accounts = [NSMutableArray arrayWithCapacity:5];
+//    NSString *str1 = @"hello world";
+//    [_person.accounts addObject:str1];
+
+    [RACObserve(_person, accounts) subscribeNext:^(id x) {
+        NSString *message = [NSString stringWithFormat:@"class: %@, length:%ld", [x class], ((NSArray *)x).count];
+        NSLog(@"%@", message);
+        UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"标题" message:message preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:nil];
+        [alertController addAction:cancelAction];
+        [self presentViewController:alertController animated:YES completion:nil];
+    }];
 }
 
 @end
