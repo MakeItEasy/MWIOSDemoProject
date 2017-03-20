@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		76B514BFCF4494D7320973DB /* libPods-MWIOSDemoProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F9F9028A4D4B0667F00C272 /* libPods-MWIOSDemoProjectTests.a */; };
+		880E38921E7F7FAB00B47B78 /* 09_EventProcessPrinciple.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 880E38911E7F7FAB00B47B78 /* 09_EventProcessPrinciple.storyboard */; };
+		880E38951E7F802F00B47B78 /* MW09_MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 880E38941E7F802F00B47B78 /* MW09_MainViewController.m */; };
+		880E38981E7F80A700B47B78 /* MW09_CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 880E38971E7F80A700B47B78 /* MW09_CustomView.m */; };
 		883D06D41E2DB2A900ADEE81 /* MW08_FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 883D06D31E2DB2A900ADEE81 /* MW08_FirstViewController.m */; };
 		883D06D71E2DB35B00ADEE81 /* MW08_SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 883D06D61E2DB35B00ADEE81 /* MW08_SecondViewController.m */; };
 		883D06DA1E2DB3F100ADEE81 /* MW08_MyPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 883D06D91E2DB3F100ADEE81 /* MW08_MyPresentationController.m */; };
@@ -71,6 +74,11 @@
 		2378B024606E452074E806F1 /* libPods-MWIOSDemoProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MWIOSDemoProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		811B73F9B1B41B49E0136B62 /* Pods-MWIOSDemoProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MWIOSDemoProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MWIOSDemoProjectTests/Pods-MWIOSDemoProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8346B843514B3AF77FDBFB5C /* Pods-MWIOSDemoProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MWIOSDemoProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MWIOSDemoProject/Pods-MWIOSDemoProject.debug.xcconfig"; sourceTree = "<group>"; };
+		880E38911E7F7FAB00B47B78 /* 09_EventProcessPrinciple.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = 09_EventProcessPrinciple.storyboard; sourceTree = "<group>"; };
+		880E38931E7F802F00B47B78 /* MW09_MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MW09_MainViewController.h; sourceTree = "<group>"; };
+		880E38941E7F802F00B47B78 /* MW09_MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MW09_MainViewController.m; sourceTree = "<group>"; };
+		880E38961E7F80A700B47B78 /* MW09_CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MW09_CustomView.h; sourceTree = "<group>"; };
+		880E38971E7F80A700B47B78 /* MW09_CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MW09_CustomView.m; sourceTree = "<group>"; };
 		883D06D21E2DB2A900ADEE81 /* MW08_FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MW08_FirstViewController.h; sourceTree = "<group>"; };
 		883D06D31E2DB2A900ADEE81 /* MW08_FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MW08_FirstViewController.m; sourceTree = "<group>"; };
 		883D06D51E2DB35B00ADEE81 /* MW08_SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MW08_SecondViewController.h; sourceTree = "<group>"; };
@@ -180,6 +188,19 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		880E38901E7F7E7000B47B78 /* 09_事件处理原理分析 */ = {
+			isa = PBXGroup;
+			children = (
+				880E38911E7F7FAB00B47B78 /* 09_EventProcessPrinciple.storyboard */,
+				880E38931E7F802F00B47B78 /* MW09_MainViewController.h */,
+				880E38941E7F802F00B47B78 /* MW09_MainViewController.m */,
+				880E38961E7F80A700B47B78 /* MW09_CustomView.h */,
+				880E38971E7F80A700B47B78 /* MW09_CustomView.m */,
+			);
+			name = "09_事件处理原理分析";
+			path = 09_EventProcessPrinciple;
+			sourceTree = "<group>";
+		};
 		883D06D11E2DA48600ADEE81 /* 08_自定义PresentationController */ = {
 			isa = PBXGroup;
 			children = (
@@ -243,6 +264,7 @@
 				888814031E287D090068EF82 /* 06_小红点使用RAC实现 */,
 				8888141D1E287E590068EF82 /* 07_RACDemo */,
 				883D06D11E2DA48600ADEE81 /* 08_自定义PresentationController */,
+				880E38901E7F7E7000B47B78 /* 09_事件处理原理分析 */,
 				88629ED21E2857C70070B09A /* Assets.xcassets */,
 				88629EC61E2857C70070B09A /* Supporting Files */,
 			);
@@ -521,6 +543,7 @@
 				888813ED1E287A4B0068EF82 /* 风景1.jpg in Resources */,
 				88629ED31E2857C70070B09A /* Assets.xcassets in Resources */,
 				88629ED11E2857C70070B09A /* Main.storyboard in Resources */,
+				880E38921E7F7FAB00B47B78 /* 09_EventProcessPrinciple.storyboard in Resources */,
 				888814211E287E590068EF82 /* 07_RACDemo.storyboard in Resources */,
 				888814131E287D090068EF82 /* 06_RedPoint.storyboard in Resources */,
 				88629F161E285C0E0070B09A /* 02_StackView.storyboard in Resources */,
@@ -657,6 +680,7 @@
 				883D06E31E2DC4FC00ADEE81 /* README.md in Sources */,
 				883D06D71E2DB35B00ADEE81 /* MW08_SecondViewController.m in Sources */,
 				888813EE1E287A4B0068EF82 /* MW03_TableViewController.m in Sources */,
+				880E38981E7F80A700B47B78 /* MW09_CustomView.m in Sources */,
 				883D06DD1E2DBB4300ADEE81 /* MW08_ThirdViewController.m in Sources */,
 				888814181E287D090068EF82 /* ZYOrderMessageListTableViewController.m in Sources */,
 				888814011E287A610068EF82 /* Person+Private.m in Sources */,
@@ -666,6 +690,7 @@
 				88629EC81E2857C70070B09A /* main.m in Sources */,
 				888813F71E287A570068EF82 /* MW04_FirstViewController.m in Sources */,
 				883D06D41E2DB2A900ADEE81 /* MW08_FirstViewController.m in Sources */,
+				880E38951E7F802F00B47B78 /* MW09_MainViewController.m in Sources */,
 				883D06DA1E2DB3F100ADEE81 /* MW08_MyPresentationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
